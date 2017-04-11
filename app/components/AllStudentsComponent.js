@@ -10,7 +10,7 @@ const AllStudentsComponent = ({ allStudents }) => {
           allStudents.map(student => {
             return (
               <div key={student.name}>
-                <Link to={`/singlePusheen/${student.name}`}>{ student.name }</Link>
+                <Link to={`/student/${student.name}`}>{ student.name }</Link>
               </div>
             );
           })

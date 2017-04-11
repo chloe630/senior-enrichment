@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b175ce03-c876-40ea-b6e6-7852a3a8f92d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/actionCreator/campuses.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/actionCreator/students.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/AllCampusesComponent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/AllCampusesContainer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/AllStudentsComponent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/AllStudentsContainer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/SingleCampusComponent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/SingleStudentComponent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/reducers/CampusReducer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/reducers/StudentReducer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/models/campus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/models/student.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/campus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/student.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/models/user.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main.jsx" afterPath="$PROJECT_DIR$/app/main.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/reducers/index.jsx" afterPath="$PROJECT_DIR$/app/reducers/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/index.js" afterPath="$PROJECT_DIR$/db/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/models/index.js" afterPath="$PROJECT_DIR$/db/models/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/api.js" afterPath="$PROJECT_DIR$/server/api.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/start.js" afterPath="$PROJECT_DIR$/server/start.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/AllStudentsComponent.js" afterPath="$PROJECT_DIR$/app/components/AllStudentsComponent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/SingleCampusComponent.js" afterPath="$PROJECT_DIR$/app/components/SingleCampusComponent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/SingleStudentComponent.js" afterPath="$PROJECT_DIR$/app/components/SingleStudentComponent.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,7 +18,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4813344">
+    <splitter split-orientation="horizontal" split-proportion="0.41123778">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="AllCampusesContainer.js" pinned="false" current-in-tab="false">
@@ -79,8 +58,8 @@
           <file leaf-file-name="SingleStudentComponent.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/components/SingleStudentComponent.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="45">
+                  <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -130,11 +109,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="main.jsx" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main.jsx" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/main.jsx">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="315">
-                  <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+                  <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="31" />
                   <folding>
                     <element signature="e#14#40#0" expanded="true" />
                     <element signature="e#218#246#0" expanded="true" />
@@ -143,11 +122,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SingleCampusComponent.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="SingleCampusComponent.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/components/SingleCampusComponent.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="45">
+                  <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
                   <folding />
                 </state>
               </provider>
@@ -156,8 +135,8 @@
           <file leaf-file-name="AllStudentsComponent.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/components/AllStudentsComponent.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+                <state relative-caret-position="30">
+                  <caret line="2" column="51" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="51" />
                   <folding />
                 </state>
               </provider>
@@ -197,7 +176,6 @@
         <option value="$PROJECT_DIR$/server/api.js" />
         <option value="$PROJECT_DIR$/server/campuses.js" />
         <option value="$PROJECT_DIR$/server/students.js" />
-        <option value="$PROJECT_DIR$/app/components/SingleStudentComponent.js" />
         <option value="$PROJECT_DIR$/server/student.js" />
         <option value="$PROJECT_DIR$/server/campus.js" />
         <option value="$PROJECT_DIR$/db/models/index.js" />
@@ -213,11 +191,12 @@
         <option value="$PROJECT_DIR$/app/components/AllCampusContainer.js" />
         <option value="$PROJECT_DIR$/app/components/AllStudentComponent.js" />
         <option value="$PROJECT_DIR$/app/components/AllStudentContainer.js" />
-        <option value="$PROJECT_DIR$/app/components/AllStudentsComponent.js" />
         <option value="$PROJECT_DIR$/app/components/AllStudentsContainer.js" />
         <option value="$PROJECT_DIR$/app/components/AllCampusesContainer.js" />
-        <option value="$PROJECT_DIR$/app/components/SingleCampusComponent.js" />
         <option value="$PROJECT_DIR$/app/main.jsx" />
+        <option value="$PROJECT_DIR$/app/components/AllStudentsComponent.js" />
+        <option value="$PROJECT_DIR$/app/components/SingleStudentComponent.js" />
+        <option value="$PROJECT_DIR$/app/components/SingleCampusComponent.js" />
       </list>
     </option>
   </component>
@@ -239,9 +218,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-908" />
-    <option name="y" value="-1057" />
-    <option name="width" value="1411" />
+    <option name="x" value="-1" />
+    <option name="y" value="23" />
+    <option name="width" value="1249" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectView">
@@ -514,18 +493,18 @@
       <updated>1491582308812</updated>
       <workItem from="1491582310159" duration="423000" />
       <workItem from="1491930198803" duration="1637000" />
-      <workItem from="1491936483094" duration="10716000" />
+      <workItem from="1491936483094" duration="11276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12776000" />
+    <option name="totallyTimeSpent" value="13336000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-908" y="-1057" width="1411" height="728" extended-state="0" />
+    <frame x="-1" y="23" width="1249" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14748201" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08387622" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -543,6 +522,25 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08387622" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -772,14 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/AllStudentsComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/AllStudentsContainer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -787,14 +777,6 @@
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/SingleCampusComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -808,22 +790,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/SingleStudentComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/main.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="31" />
           <folding>
             <element signature="e#14#40#0" expanded="true" />
             <element signature="e#218#246#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/AllStudentsComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="51" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/SingleStudentComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/SingleCampusComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
