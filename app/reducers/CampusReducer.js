@@ -1,4 +1,4 @@
-import { GET_ALL_CAMPUSES, GET_SINGLE_CAMPUS } from '../actionCreator/campuses';
+import { GET_ALL_CAMPUSES, GET_SINGLE_CAMPUS } from '../actionCreator/campusActionCreator';
 
 const initialAlbumsState = {
   allCampuses: {},

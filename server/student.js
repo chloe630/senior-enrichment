@@ -1,7 +1,35 @@
 'use strict';
 
+const Student = [{
+  id: 1,
+  name: 'Mocha',
+  email: 'mocha@meow.com',
+  image: 'http://placekitten.com/200/300'
+}, {
+  id: 2,
+  name: 'Galgal',
+  email: 'galgal@meow.com',
+  image: 'http://placekitten.com/200/300'
+}, {
+  id: 3,
+  name: 'Ino',
+  email: 'ino@meow.com',
+  image: 'http://placekitten.com/200/300'
+}, {
+  id: 4,
+  name: 'Bandi',
+  email: 'bandi@meow.com',
+  image: 'http://placekitten.com/200/300'
+}, {
+  id: 5,
+  name: 'Garfield',
+  email: 'garfiled@meow.com',
+  image: 'http://placekitten.com/200/300'
+}];
+
+
 const db = require('../db');
-const Student = db.model('student');
+// const Student = db.model('student');
 
 module.exports = require('express').Router()
   .param('id', (req, res, next, id) =>
@@ -22,11 +50,11 @@ module.exports = require('express').Router()
     Student.findAll({
       where: req.query
     })
-      .then(users => res.json(users))
+      .then(students => res.json(students))
       .catch(next))
   .post('/', (req, res, next) =>
     Student.create(req.body)
-      .then(student => res.status(201).json(user))
+      .then(createdStudent => res.status(201).json(createdStudent))
       .catch(next))
   .get('/:id', (req, res, next) =>
     res.json(req.student))

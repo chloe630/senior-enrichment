@@ -1,4 +1,4 @@
-import { GET_ALL_STUDENTS, GET_SINGLE_STUDENT } from '../actionCreator/students';
+import { GET_ALL_STUDENTS, GET_SINGLE_STUDENT } from '../actionCreator/studentActionCreator';
 
 const initialState = {
   allStudents: [],

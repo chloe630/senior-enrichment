@@ -1,7 +1,16 @@
 'use strict';
+const Campus = [{
+  id: 1,
+  name: 'International Meowcademy',
+  image: 'http://flickholdr.com/200/300/sea,sun'
+},{
+  id: 2,
+  name: 'Private Mewoing School',
+  image: 'http://flickholdr.com/200/300/sea,sun'
+}];
 
 const db = require('../db');
-const Campus = db.model('campus');
+// const Campus = db.model('campus');
 
 
 module.exports = require('express').Router()
@@ -20,14 +29,12 @@ module.exports = require('express').Router()
       })
       .catch(next))
   .get('/', (req, res, next) =>
-    Campus.findAll({
-      where: req.query
-    })
-      .then(users => res.json(users))
+    Campus.findAll()
+      .then(campuses => res.json(campuses))
       .catch(next))
   .post('/', (req, res, next) =>
     Campus.create(req.body)
-      .then(campus => res.status(201).json(user))
+      .then(createdCampus => res.status(201).json(createdCampus))
       .catch(next))
   .get('/:id', (req, res, next) =>
     res.json(req.campus))

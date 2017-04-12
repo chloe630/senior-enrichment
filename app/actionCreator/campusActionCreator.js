@@ -20,10 +20,9 @@ export const getSingleCampus = selectedCampus => ({
 export const getCampusFromServer = () => {
   return dispatch => {
     axios.get('/api/campus')
-      .then(response => {
-        dispatch(getAllcampuses(response.data));
-      })
-      .catch(err => console.error('Ugh... failed..', err));
+      .then(campuses => compuses.data)
+      .then(campuses => dispatch(getAllCampuses(campuses)))
+      .catch(err => console.error('Ugh... failed to load all the campuses..', err));
   };
 };
 
@@ -31,9 +30,7 @@ export const getSingleCampusFromServer = id => {
   return dispatch => {
     axios.get(`/api/campus/${id}`)
       .then(foundCampus => foundCampus.data)
-      .then(campusData => {
-        dispatch(getSinglecampus(campusData));
-      })
-      .catch(err => console.error('Ugh... failed..', err))
+      .then(campusData => dispatch(getSingleCampus(campusData)))
+      .catch(err => console.error(`Ugh... failed to find campus ${id}..`, err));
   };
 };
