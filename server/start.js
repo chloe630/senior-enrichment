@@ -35,6 +35,44 @@ if (module === require.main) {
         * In 'api.js', note how `module` (this specific file - i.e. module) is different from `require.main` because this is NOT the file we started in and `require.main` is the file we started in
           ~ To help compare these objects, reference each of their `id` attributes
   */
+
+
+  const Student = [{
+    id: 1,
+    name: 'Mocha',
+    email: 'mocha@meow.com',
+    image: 'http://placekitten.com/200/300'
+  }, {
+    id: 2,
+    name: 'Galgal',
+    email: 'galgal@meow.com',
+    image: 'http://placekitten.com/200/300'
+  }, {
+    id: 3,
+    name: 'Ino',
+    email: 'ino@meow.com',
+    image: 'http://placekitten.com/200/300'
+  }, {
+    id: 4,
+    name: 'Bandi',
+    email: 'bandi@meow.com',
+    image: 'http://placekitten.com/200/300'
+  }, {
+    id: 5,
+    name: 'Garfield',
+    email: 'garfiled@meow.com',
+    image: 'http://placekitten.com/200/300'
+  }];
+
+  const Campus = [{
+    id: 1,
+    name: 'International Meowcademy',
+    image: 'http://flickholdr.com/200/300/sea,sun'
+  },{
+    id: 2,
+    name: 'Private Mewoing School',
+    image: 'http://flickholdr.com/200/300/sea,sun'
+}];
   const server = app.listen(
     process.env.PORT || 1337,
     () => {

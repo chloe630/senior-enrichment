@@ -1,16 +1,15 @@
 import React from 'react';
 
 const AllStudentsComponent = ({ allStudents }) => {
-  console.log(allStudents);
   return (
     <div>
       <h1>OUR WONDERFUL STUDENTS!!</h1>
       <div>
         {
-          allStudents.map(student => {
+          allStudents && allStudents.map(campus => {
             return (
-              <div key={student.name}>
-                <Link to={`/student/${student.name}`}>{ student.name }</Link>
+              <div>
+                <li key = {student.id}><Link to={`/student/${student.id}`}>{ student.name }</Link></li>
               </div>
             );
           })

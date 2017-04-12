@@ -1,15 +1,15 @@
-import React from 'react';
-// import axios from 'axios';
+import React, { Component } from 'react';
 
-export const SingleStudentComponent = ({ allStudents }) => {
-  return (
-    <div>
+const SingleStudentComponent = ({ student }) => {
+    return (
       <div>
-        <div >
-          <h3>{ this.state.cat. name }</h3>
-          <img src={ this.state.cat.image } />
+        <div>
+          <div >
+            <h3>{ this.props.student.name }</h3>
+          </div>
         </div>
       </div>
-    </div>
-  );
+    );
 };
+
+export default SingleStudentComponent;

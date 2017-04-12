@@ -15,5 +15,6 @@ module.exports = db.define('student', {
     vaildate: {
       isEmail: true
     }
-  }
+  },
+  image: Sequelize.BLOB
 });
